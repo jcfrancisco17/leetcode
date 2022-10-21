@@ -1,4 +1,4 @@
-package array;
+package arraysandhashing;
 
 import org.junit.jupiter.api.Test;
 
