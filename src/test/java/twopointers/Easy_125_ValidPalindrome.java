@@ -59,9 +59,9 @@ class Easy_125_ValidPalindrome {
      * character on their current position.
      * </p>
      * <p>
-     * The complexity here is that non-ASCII characters should be skipped. To do that, if a character is non-ASCII,
+     * The complexity here is that non-alpha or non-digit characters should be skipped. To do that, if a character is non-alpha or non-digit,
      * we move increment the left pointer, or decrement the right pointer. Once both left and right pointers are
-     * ASCII, we can finally compare. Don't forget to compare ignoring the case.
+     * alphabets or digits, we can finally compare. Don't forget to compare ignoring the case.
      * </p>
      */
     private static class Solution {
